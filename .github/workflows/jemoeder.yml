@@ -6,4 +6,5 @@ jobs:
     steps:
       - run: echo "🎉 it's workin innit?"
       - uses: actions/checkout@v3
+      - run: ls .
       - run: npm ci
